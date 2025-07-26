@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "QuedUp - Save Coding Questions Effortlessly",
+  "version": "1.0", 
+  "author": "Wasim Rehman",
+  "description": "QuedUp is a smart and minimal Chrome extension that lets you save coding problems from different platforms",
+  "permissions": [
+    ""
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources" : [
+    {
+      "resources": [],
+      "matches" : ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/logo.png",
+      "24": "assets/logo.png",
+      "32": "assets/logo.png"
+    },
+    "default_popup": "index.html",
+    "default_title": "A tooltip popup description when you hover over the Chrome Extension icon."
+  }
+}
