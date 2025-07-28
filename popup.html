@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="QuedUp is a smart and minimal Chrome extension that lets you save coding problems from different platforms like LeetCode, Codeforces, CodeChef, AtCoder, and Maang">
+    <link rel="icon" href="assets/logo.png">
+    <title>QuedUp - Save Coding Questions Effortlessly</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">
+            <img src="assets/logo.png" alt="QuedUp Logo" class="logo">
+            <p>QuedUp</p>
+        </h1>
+        <div class="tabs">
+            <button class="tab active" id="tab-all" data-filter="all"><p>All</p></button>
+            <button class="tab" id="tab-leetcode" data-filter="leetcode.com"> <img src="assets/leetcode.png" alt="LeetCode Logo" class="tab-icon"> <p>LeetCode</p></button>
+            <button class="tab" id="tab-codeforces" data-filter="codeforces.com"> <img src="assets/codeforces.png" alt="Codeforces Logo" class="tab-icon"> <p>Codeforces</p></button>
+            <button class="tab" id="tab-codechef" data-filter="codechef.com"> <img src="assets/codechef.jpeg" alt="CodeChef Logo" class="tab-icon"> <p>CodeChef</p></button>
+            <button class="tab" id="tab-atcoder" data-filter="atcoder.jp"> <img src="assets/atcoder.png" alt="AtCoder Logo" class="tab-icon"> <p>AtCoder</p></button>
+            <button class="tab" id="tab-maang" data-filter="maang.in"> <img src="assets/maang.png" alt="Maang Logo" class="tab-icon"> <p>Maang</p></button>
+        </div>
+        <hr class="divider">
+        <div class="problems-container" id="problems-container"></div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

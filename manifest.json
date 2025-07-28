@@ -3,7 +3,7 @@
   "name": "QuedUp - Save Coding Questions Effortlessly",
   "version": "1.0", 
   "author": "Wasim Rehman",
-  "description": "QuedUp is a smart and minimal Chrome extension that lets you save coding problems from different platforms",
+  "description": "QuedUp is a smart and minimal Chrome extension that lets you save coding problems from different platforms like LeetCode, Codeforces, CodeChef, AtCoder, and Maang",
   "permissions": [
     "storage",
     "tabs"
@@ -11,7 +11,13 @@
   "content_scripts": [
     {
       "matches": [
-        "https://maang.in/problems/*"
+        "https://leetcode.com/problems/*",
+        "https://codeforces.com/problemset/problem/*",
+        "https://codeforces.com/contest/*/problem/*",
+        "https://www.codechef.com/problems/*",
+        "https://www.codechef.com/*/problems/*",
+        "https://atcoder.jp/contests/*/tasks/*",
+        "https://maang.in/*"
       ],
       "js": [
         "content.js"
@@ -28,7 +34,13 @@
         "assets/added.png",
         "assets/delete.png",
         "assets/edit.png",
-        "assets/open.png"
+        "assets/open.png",
+        "assets/logo.png",
+        "assets/leetcode.png",
+        "assets/codeforces.png",
+        "assets/codechef.jpeg",
+        "assets/atcoder.png",
+        "assets/maang.png"
       ],
       "matches" : ["<all_urls>"]
     }
