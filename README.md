@@ -11,9 +11,9 @@
 
 <!-- ![QuedUp Extension Screenshot](assets/screenshot-main.png) -->
 <div style="display: flex; justify-content: center; align-items: center;">
-   <img src="screenshots/main.png" alt="Image" width="263" height="375" style="border:1px solid black; border-radius:10px;">
-   <img src="screenshots/platform-1.png" alt="Image" width="263" height="375" style="border:1px solid black; border-radius:10px;">
-   <img src="screenshots/platform-2.png" alt="Image" width="263" height="375" style="border:1px solid black; border-radius:10px;">
+   <img src="screenshots/main.png" alt="Image" width="264" height="345" style="border:1px solid black; border-radius:10px;">
+   <img src="screenshots/platform-1.png" alt="Image" width="264" height="345" style="border:1px solid black; border-radius:10px;">
+   <img src="screenshots/platform-2.png" alt="Image" width="264" height="345" style="border:1px solid black; border-radius:10px;">
 </div>
 
 
