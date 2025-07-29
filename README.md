@@ -1,4 +1,7 @@
-# 🚀 QuedUp - Save Coding Questions Effortlessly
+<div align="center" style="display: flex; align-items: center; justify-content: flex-start; gap: 12px;">
+  <img src="assets/icon.png" alt="QuedUp Icon" width="40" height="40" style="border-radius:8px;">
+  <h1 style="margin: 0;">QuedUp - Save Coding Questions Effortlessly</h1>
+</div>
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Extension-blue?style=for-the-badge&logo=google-chrome)](https://chrome.google.com/webstore/)
 [![Version](https://img.shields.io/badge/Version-1.0-green?style=for-the-badge)](https://github.com/wasimrehman05/quedup)
@@ -7,7 +10,9 @@
 > A smart and minimal Chrome extension that lets you save coding problems from different platforms like LeetCode, Codeforces, CodeChef, AtCoder, and Maang.
 
 <!-- ![QuedUp Extension Screenshot](assets/screenshot-main.png) -->
-<img src="assets/screenshot-main.png" alt="Image" width="380" height="500" style="border-radius:10px;">
+<img src="screenshots/main.png" alt="Image" width="294" height="400" style="border:1px solid black; border-radius:10px;">
+<img src="screenshots/platform-1.png" alt="Image" width="294" height="400" style="border:1px solid black; border-radius:10px;">
+<img src="screenshots/platform-2.png" alt="Image" width="294" height="400" style="border:1px solid black; border-radius:10px;">
 
 
 ## ✨ Features

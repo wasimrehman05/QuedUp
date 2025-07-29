@@ -35,7 +35,7 @@
         "assets/delete.png",
         "assets/edit.png",
         "assets/open.png",
-        "assets/logo.png",
+        "assets/icon.png",
         "assets/leetcode.png",
         "assets/codeforces.png",
         "assets/codechef.jpeg",
@@ -47,9 +47,9 @@
   ],
   "action": {
     "default_icon": {
-      "16": "assets/logo.png",
-      "24": "assets/logo.png",
-      "32": "assets/logo.png"
+      "16": "assets/icon.png",
+      "24": "assets/icon.png",
+      "32": "assets/icon.png"
     },
     "default_popup": "popup.html",
     "default_title": "Coding Questions Tracker"

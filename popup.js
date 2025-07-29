@@ -4,7 +4,8 @@ const QUEDUP_CONFIG = {
     STORAGE_KEY: "QUEDUP_PROBLEMS",
     OPEN_LINK_IMG_URL: chrome.runtime.getURL("assets/open.png"),
     DELETE_IMG_URL: chrome.runtime.getURL("assets/delete.png"),
-    EDIT_IMG_URL: chrome.runtime.getURL("assets/edit.png")
+    EDIT_IMG_URL: chrome.runtime.getURL("assets/edit.png"),
+    ICON_IMG_URL: chrome.runtime.getURL("assets/icon.png")
 };
 
 const PLATFORM_FILTERS = {
@@ -101,10 +102,10 @@ const getPlatformIcon = (host) => {
     // Find matching platform by checking if host contains the platform filter
     for (const [key, platform] of Object.entries(PLATFORM_FILTERS)) {
         if (platform.filter !== 'all' && host.includes(platform.filter)) {
-            return platform.icon || chrome.runtime.getURL("assets/logo.png");
+            return platform.icon || QUEDUP_CONFIG.ICON_IMG_URL;
         }
     }
-    return chrome.runtime.getURL("assets/logo.png"); // Default fallback
+    return QUEDUP_CONFIG.ICON_IMG_URL; // Default fallback
 };
 
 const renderProblems = (problems) => {
