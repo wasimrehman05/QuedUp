@@ -10,10 +10,10 @@
 > A smart and minimal Chrome extension that lets you save coding problems from different platforms like LeetCode, Codeforces, CodeChef, AtCoder, and Maang.
 
 <!-- ![QuedUp Extension Screenshot](assets/screenshot-main.png) -->
-<div style="display:flex; justify-content:center;">
-   <img src="screenshots/main.png" alt="Image" width="286" height="400" style="border:1px solid black; border-radius:10px;">
-   <img src="screenshots/platform-1.png" alt="Image" width="286" height="400" style="border:1px solid black; border-radius:10px;">
-   <img src="screenshots/platform-2.png" alt="Image" width="286" height="400" style="border:1px solid black; border-radius:10px;">
+<div style="display: flex; justify-content: center; align-items: center;">
+   <img src="screenshots/main.png" alt="Image" width="285" height="375" style="border:1px solid black; border-radius:10px;">
+   <img src="screenshots/platform-1.png" alt="Image" width="285" height="375" style="border:1px solid black; border-radius:10px;">
+   <img src="screenshots/platform-2.png" alt="Image" width="285" height="375" style="border:1px solid black; border-radius:10px;">
 </div>
 
 
